@@ -1,0 +1,60 @@
+<template name="menu">
+  <section id="menu" class="">
+    <div class="ui labeled icon menu">
+      <div class="ui container">
+        <a href="{{pathFor 'dashboard'}}" class="item {{activePage 'dashboard'}}">
+          <i class="icon browser"></i>
+          Dashboard
+          <!-- <div class="ui label">1</div> -->
+        </a>
+        <a href="#" class="item {{activePage 'bookmarks'}}">
+          <i class="icon bookmark"></i>
+          Bookmarks
+        </a>
+        <a href="{{pathFor 'add'}}" class="item {{activePage 'add'}}">
+          <i class="icon add square"></i>
+          Add Rig
+        </a>
+        <a href="{{pathFor 'search'}}" class="item {{activePage 'search'}}">
+          <i class="icon search"></i>
+          Search
+        </a>
+        <a href="#" class="item">
+          <i class="icon sign in"></i>
+          Login
+          <!-- <div class="ui label">1</div> -->
+        </a>
+      </div>
+    </div>
+    <!-- <a href="{{pathFor 'home'}}" class="{{activePage 'home'}}">
+      <span class="wrapper-menu-item">
+        <span class="icon-home"></span>
+        <span class="title-menu">Home</span>
+      </span>
+    </a>
+    <a href="{{pathFor 'feed'}}" class="{{activePage 'feed'}}">
+      <span class="wrapper-menu-item">
+        <span class="icon-rss"></span>
+        <span class="title-menu">What's<br>Cooking</span>
+      </span>
+    </a>
+    <a href="{{pathFor 'recipes'}}" class="{{activePage 'recipes' 'recipe'}}">
+      <span class="wrapper-menu-item">
+        <span class="icon-category"></span>
+        <span class="title-menu">Recipes</span>
+      </span>
+    </a>
+    <a href="{{pathFor 'bookmarks'}}" class="{{activePage 'bookmarks'}}">
+      <span class="wrapper-menu-item">
+        <span class="icon-bookmark-hollow"></span>
+        <span class="title-menu">Bookmarks</span>
+      </span>
+    </a>
+    <a href="{{pathFor 'about'}}" class="{{activePage 'about'}}">
+      <span class="wrapper-menu-item">
+        <span class="icon-question"></span>
+        <span class="title-menu">About</span>
+      </span>
+    </a> -->
+  </section>
+</template>

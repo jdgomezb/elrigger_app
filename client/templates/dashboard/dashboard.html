@@ -1,3 +1,13 @@
 <template name="dashboard">
-  content for dashboard goes here
+  <div class="ui container">
+    {{> searchComponent}}
+
+    Dashboard goes here
+    <div class="cta-wrapper">
+      <a href="{{pathFor 'add'}}" class="ui primary button">
+        <i class="icon add square"></i>
+        Add Rig
+      </a>
+    </div>
+  </div>
 </template>
